@@ -41,8 +41,8 @@
 
 			fixed4 frag (v2f i) : SV_Target
 			{
-				float _c = 16;
-				float _r = 16;
+				float _c = 100;
+				float _r = 100;
 				float2 uv = i.uv;
 				uv.x *= _c;
 				uv.y *= _r;
