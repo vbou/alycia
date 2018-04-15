@@ -41,6 +41,8 @@
 			
 			sampler2D _MainTex;
 			sampler2D _CustomTex;
+			uniform float4 _Vectors[1000];
+			uniform float _Areas[1000];
 
 			fixed4 frag (v2f i) : SV_Target
 			{
